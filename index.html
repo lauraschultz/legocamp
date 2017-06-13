@@ -3,25 +3,12 @@ layout: default
 ---
 <style>
 body {
-background: url({{ url }}/robot.jpg) no-repeat center center fixed;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-                background-position:bottom left 0px 0px;
+background: -moz-linear-gradient(-45deg,  rgba(111,44,111,0.81) 0%, rgba(73,160,157,0.81) 100%); /* FF3.6+ */      
+                background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(111,44,111,0.81)), color-stop(100%,rgba(73,160,157,0.81))); /* Chrome,Safari4+ */       
+                background: -webkit-linear-gradient(-45deg,  rgba(111,44,111,0.81) 0%,rgba(73,160,157,0.81) 100%); /* Chrome10+,Safari5.1+ */       
+                background: -o-linear-gradient(-45deg,  rgba(111,44,111,0.81) 0%,rgba(73,160,157,0.81) 100%); /* Opera 11.10+ */        
+                background: -ms-linear-gradient(-45deg,  rgba(111,44,111,0.81) 0%,rgba(73,160,157,0.81) 100%); /* IE10+ */      
+                background: linear-gradient(135deg,  rgba(111,44,111,0.81) 0%,rgba(73,160,157,0.81) 100%); /* W3C */        
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#806f2c6f', endColorstr='#8049a09d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */        
             }
 </style>
-<center>
-            <div id="bccont">
-                <div id="bc">
-                    <center>
-                         <a href="/sign-up" id="b">
-                            <div class="alignleft">sign up</div>
-                            <div class="alignright">&nbsp;→</div>
-                        </a>
-
-                    </center>
-                </div>
-            </div>
-            <!-- bccont -->
-        </center>
