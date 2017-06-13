@@ -129,9 +129,11 @@
             .alignleft {
                 float: left;
             }
+
             .alignright {
                 float: right;
             }
+
             .arrow {
                 margin-right:15px;
                 opacity:0;
@@ -142,6 +144,7 @@
                 transition: all 0.3s ease;
                 color:white;
                 font-size:14px;
+                float: right;
             }
             #options {
                 width:205px;
