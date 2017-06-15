@@ -274,7 +274,13 @@ background-position: 0px 80px;
                 padding-right:2%;
             }
 
-            @media screen and (min-width: 650px){
+            @media screen and (min-width:850px){
+                #words {
+                    display:inline-block;
+                }
+            }
+
+            @media screen and (min-width: 730px){
                 body {
                     background-position: 0px 80px;
                 }
@@ -291,9 +297,7 @@ background-position: 0px 80px;
                     left: 300px;
                     top:125px;
                 }
-                #words {
-                    display:inline-block;
-                }
+                
                 #sidebar {
                     width:300px;
                     top:125px;
