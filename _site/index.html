@@ -9,16 +9,21 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <body>
 
-     <script>
-            $(document).ready(function() {
-                $(".toggle").click(function() {
-                    $("#options").slideToggle(600);
-                });
-            });
-</script>
+     <script> 
+
+$(document).ready( function(){
+    $('.menu-icon').click( function() {
+        var toggleWidth = $("#sidebar").width() == 300 ? "0px" : "300px";
+        $('#sidebar').animate({ width: toggleWidth });
+    });
+});
+</script> 
+
+<div class="menu-icon"><i class="fa fa-bars"></i></div>
         <div id="topbar">
                 <h1 class="title">Lego Camp</h1>
                 <div id="words">building engineering and teamwork skills through lego robotics</div>
