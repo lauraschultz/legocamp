@@ -3,7 +3,7 @@
                 overflow:hidden;
                 margin:0px;
                 width:100%;
-                font-family: 'Open Sans', sans-serif;
+                font-family: 'Open Sans', sans-serif; font-weight: 400;font-style: normal;
                 font-size:14px;
                  background: -moz-linear-gradient(-45deg, rgb(111,44,111) 0%, rgb(73,160,157) 100%); /* FF3.6-15 */
 background: linear-gradient(135deg, rgb(111,44,111) 0%,rgb(73,160,157) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -23,7 +23,7 @@ background-position: 0px 80px;
 
 
             .doc-box {
-                padding:25px;
+                padding:15px;
                 display: inline-block;
                 margin:8px;
                 background:white;
@@ -48,7 +48,7 @@ background-position: 0px 80px;
             }
 
             .post-cont{
-                margin:25px;
+                margin:15px;
             }
 
             .post{
@@ -61,11 +61,13 @@ background-position: 0px 80px;
             h1 {
                 font-family: 'Playfair Display', serif;
                 font-weight: 900;
+                font-style:italic;
                 margin-top:0;
             }
             h2{
                 font-family: 'Playfair Display', serif;
                 font-weight: 700;
+                font-style:italic;
             }
             .title{
                 display:inline-block;
@@ -301,5 +303,11 @@ background-position: 0px 80px;
                 #sidebar {
                     width:300px;
                     top:125px;
+                }
+                .post-cont {
+                    margin:25px;
+                }
+                .doc-box {
+                    padding:25px;
                 }
             }
