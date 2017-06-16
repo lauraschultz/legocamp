@@ -10,7 +10,7 @@ body {
     background: -moz-linear-gradient(-45deg, rgb(111,44,111) 0%, rgb(73,160,157) 100%); /* FF3.6-15 */
     background: linear-gradient(135deg, rgb(111,44,111) 0%,rgb(73,160,157) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc6f2c6f', endColorstr='#cc49a09d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    background-position: 0px 90px;
+    background-position: -20px 90px;
 }
 .menu-icon {
     color:white;
@@ -234,7 +234,7 @@ a:hover {
 }
 @media screen and (min-width: 730px){
     body {
-        background-position: 300px 105px;
+        background-position: 270px 105px;
     }
     .menu-icon {
         display:none;
