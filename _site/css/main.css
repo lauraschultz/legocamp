@@ -34,9 +34,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc6f2c6f', e
     -ms-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
-}
-
-.doc-box:hover{
+} 
+.doc-box:hover {
     background:#6f2c6f;
     color:white;
     -webkit-transition: all 0.2s ease;
@@ -45,8 +44,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc6f2c6f', e
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
-
-.grad-bg{
+.grad-bg {
     background-image: url("/robotbg.png");
     position: absolute;
     top:90px;
@@ -55,18 +53,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc6f2c6f', e
     bottom:0;
     overflow-y:scroll;
 }
-
-.post-cont{
+.post-cont {
     margin:15px;
 }
-
-.post{
+.post {
     max-width:600px;
     padding:20px;
     margin:auto;
     background-color:white;
 }
-
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 900;
@@ -210,7 +205,6 @@ a:hover {
 .alignright {
     float: right;
 }
-
 .arrow {
     margin-right:15px;
     opacity:0;
@@ -223,26 +217,21 @@ a:hover {
     font-size:14px;
     float: right;
 }
-
 .row1 img {
     max-width:250px;
     max-height:160px;
 }
-
 .row2, .row3 {
     vertical-align: center;
 }
-
 .row2 {
     padding-right: 6px;
 }
-
 @media screen and (min-width:910px){
     #words {
         display:inline-block;
     }
 }
-
 @media screen and (min-width: 730px){
     body {
         background-position: 0px 80px;
