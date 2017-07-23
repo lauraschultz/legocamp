@@ -227,6 +227,9 @@ a:hover {
 .row2 {
     padding-right: 6px;
 }
+.carousel .item {
+    height:560px;
+}
 @media screen and (min-width:910px){
     #words {
         display:inline-block;
