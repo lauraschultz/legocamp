@@ -45,7 +45,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc6f2c6f', e
     transition: all 0.2s ease;
 }
 .grad-bg {
-    background-image: url("/robotbg.png");
+    background-image: url("../robotbg.png");
     position: absolute;
     top:90px;
     left:0;
@@ -163,7 +163,7 @@ a:hover {
     margin:0px;
     margin-left:20px;
     font-weight:800;
-    text-transform:;
+    /* text-transform:; */
     font-size:18px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
