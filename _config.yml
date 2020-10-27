@@ -10,7 +10,7 @@ title: FIRST Lego League Camp
 description: > # this means to ignore newlines until "baseurl:"
   FIRST Lego League Camp is a week long day camp for kids in elementary and middle school
   interested in and engaged with engineering and problem-solving. 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/legocamp" # the subpath of your site, e.g. /blog
 url: "http://lauraschultz.github.io/legocamp" # the base hostname & protocol for your site
 
 # Build settings
